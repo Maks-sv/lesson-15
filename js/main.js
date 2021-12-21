@@ -10,7 +10,7 @@ console.log('Sample JavaScript HW#1');
 var myNum = 10;
 console.log(myNum);
 // имя переменной: myStr, значение: 'строка'
-var myStr = 'сторока';
+var myStr = 'строка';
 console.log(myStr);
 // имя переменной: myBool, значение: true
 var myBool = true;
@@ -20,8 +20,8 @@ var myArr = [1,2,3,4,5];
 console.log(myArr);
 // имя переменной myObj, значения: first: 'First Name', last: 'Last Name'
 var myObj = {
-  first:'First name',
-  last:'Last name'
+  first: 'First Name',
+  last: 'Last Name'
 };
 console.log(myObj);
 
@@ -84,16 +84,20 @@ console.log(myTest);
  */
 
 // константа Pi → myPi
-console.log(Math.PI);
+var myPi = Math.PI;
+console.log(myPi);
 
 // округленное значение числа 89.279 → myRound
-console.log(Math.round(89.279));
+var myRound = Math.round(89.279);
+console.log(myRound);
 
 // случайное число между 0..10 → myRandom
-console.log(Math.random()* 10);
+var myRandom = Math.random()* 10;
+console.log(myRandom);
 
 // 3 в 5 степени → myPow
-console.log(Math.pow(3,5));
+var myPow = Math.pow(3,5);
+console.log(myPow);
 
 /*
  * #6
@@ -117,8 +121,8 @@ console.log(strObj);
  */
 
 // isRamaPos
-var isRamaPos = strObj.str;
-console.log(isRamaPos.indexOf('рама'));
+var isRamaPos = strObj.str.indexOf('рама');
+console.log(isRamaPos);
 /*
  * #8
  *
@@ -139,5 +143,5 @@ console.log(strReplace);
  *
  * Преобразуйте любую строку в верхний, затем в нижний регистры, результат отобразите в консоли.
  */
-console.log(strReplace.toUpperCase('Мама моет раму, Рама держит маму'));
-console.log(strReplace.toLowerCase('Мама моет раму, Рама держит маму'));
+console.log(strReplace.toUpperCase());
+console.log(strReplace.toLowerCase());
